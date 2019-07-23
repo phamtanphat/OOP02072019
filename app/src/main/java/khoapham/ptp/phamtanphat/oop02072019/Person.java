@@ -27,6 +27,25 @@ public class Person {
 //        return name;
 //    }
     //Alt + ínert
-    https://medium.com/mindorks/11-android-studio-shortcuts-every-android-developer-must-know-a153e736e611
+//    https://medium.com/mindorks/11-android-studio-shortcuts-every-android-developer-must-know-a153e736e611
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
