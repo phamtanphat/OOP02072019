@@ -19,9 +19,7 @@ public class MainActivity extends AppCompatActivity {
 //            +Thuoc tinh
 //            +Hanh vi
         //object : la con cua class
-        Person nguyenvana = new Person("Nguyen Van A",20);
 
-        Person nguyenvanb = new Person("Nguyen Van B",30);
         // Hocsinh
 //            +Ten : String
 //            +Lop  : int
