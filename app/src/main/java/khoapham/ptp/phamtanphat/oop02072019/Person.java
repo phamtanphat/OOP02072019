@@ -8,9 +8,12 @@ public class Person {
     private int age;
 
     //constructor : Phương thức khởi tạo(Điều kiện cần để tạo ra 1 object)
-    public Person(String Name , int Age){
-        Log.d("BBB",Name );
-        Log.d("BBB",String.valueOf(Age));
+    public Person(String name , int age){
+//        Log.d("BBB",Name );
+//        Log.d("BBB",String.valueOf(Age));
+        this.name = name;
+        this.age = age;
+
     }
 
 }
