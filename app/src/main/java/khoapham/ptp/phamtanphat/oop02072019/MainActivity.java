@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Nhanvien nhanvien = new Nhanvien("Nguyen Van A",10);
+        Nhanvien nhanvien = new Nhanvien("Nguyen Van A",10 ,"Nhan vien cap A");
+
 
 
     }
