@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 //            +Thuoc tinh
 //            +Hanh vi
         //object : la con cua class
-
         // Hocsinh
 //            +Ten : String
 //            +Lop  : int
@@ -45,5 +44,7 @@ public class MainActivity extends AppCompatActivity {
 //            Điều kiện sai
 //                + Mặc định làm ca sáng
 //                + Giờ làm việc 7h sáng
+        Hocsinh nguyenvana = new Hocsinh("Nguyen Van A",1,10);
+        Log.d("BBB", String.valueOf(nguyenvana.getMaso()));
     }
 }
