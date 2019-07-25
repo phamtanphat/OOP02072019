@@ -14,5 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Nhanvien nhanvien = new Nhanvien();
+        nhanvien.setName("Nguyen Van A");
+        nhanvien.setAge(10);
+        nhanvien.info();
+
     }
 }
